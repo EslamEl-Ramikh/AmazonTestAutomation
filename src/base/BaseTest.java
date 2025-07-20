@@ -9,7 +9,6 @@ import login.LoginTests;
 
 public class BaseTest {
 
-	//private WebDriver driver;
 	protected HomePage homepage;
 	public LoginTests login;
 	
@@ -24,15 +23,5 @@ public class BaseTest {
 	}
 	
 	
-	/*
-	public static void main(String[] args) {
-		
-					BaseTest test = new BaseTest();
-					test.setup();
-				//	HomePage homepage = new HomePage();
-				//	homepage.NavigateToLogin();
-					LoginTests login = new LoginTests();
-					login.TestFailureLogin();
-	}*/
-
+	
 }

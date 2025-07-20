@@ -1,0 +1,31 @@
+# Amazon Test Automation Project
+
+This is a Selenium-based test automation project created as part of a technical assessment. The project structure uses Java, Selenium, and TestNG, and includes sample test cases for login and product search on Amazon's website.
+
+## Project Structure
+
+- 'BaseTest.java': Initializes and tears down WebDriver
+- 'AmazonLoginTest.java': Simulates a login process using dummy credentials
+- 'ProceedWithOrderTest.java': Navigates to the Video Games Category page
+- `AmazonSearchTest.java`: Performs a product search and validates the result
+
+## Note
+
+Due to time constraints, the full assessment implementation was not completed. However, the project structure has been set up with clean, scalable design, allowing further test scenarios to be added easily.
+
+## Technologies Used
+
+- Java
+- Selenium WebDriver
+- TestNG
+- ChromeDriver
+
+## How to Run
+
+1. Clone the repository
+2. Open in Eclipse or any compatible IDE
+3. Run the tests using TestNG
+
+---
+
+*This project is intended for demonstration purposes only. It does not use real credentials or interact with real user data.*
